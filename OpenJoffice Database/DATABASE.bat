@@ -19,8 +19,7 @@ if %errorlevel% == 4 goto e
 if %errorlevel% == 5 goto er
 if %errorlevel% == 6 exit
 :createdb
-md db
-echo. >> dbc
+
 goto start2
 :c
 
@@ -66,7 +65,7 @@ type %wertn%
 echo anleitung:
 echo.
 echo.
-ECHO 1. KOPIEREN SIE ZEILE EINS DURCH RECHTSKLICK
+ECHO 1. KOPIEREN SIE ZEILE EINS DURCH AUSWÄHLEN MIT ZIEHEN DER MAUS UND RECHTSKLICK
 ECHO 2. FUEGEN SIE ZEILE EINS IN DAS FELD UNTEN EIN UND BEARBEITEN SIE SIE GEGEBENFALLS
 ECHO 3. ENTER!!!
 ECHO 4. SCHRITTE FUER ALLE ANDEREN ZEILEN WIEDERHOLEN
