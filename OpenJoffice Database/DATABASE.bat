@@ -1,4 +1,6 @@
 @echo off
+md db
+cls
 title passworteingabe
 set /p passwd="passwort eingeben ="
 if %passwd% == 12345 goto start
