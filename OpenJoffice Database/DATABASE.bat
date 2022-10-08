@@ -1,3 +1,4 @@
+REM Software by zvdxc on github
 @echo off
 md db
 cls
